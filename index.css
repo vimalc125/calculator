@@ -1,0 +1,68 @@
+
+.calculator{
+    padding: 10px;
+    border-radius: 10px;
+    height: 380px;
+    width: 400px;
+    margin-left:550px;
+    margin-top: 180px;
+    background-color: black;
+    -webkit-box-shadow: -17px 23px 29px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -17px 23px 29px 0px rgba(0,0,0,0.75);
+    box-shadow: -17px 23px 29px 0px rgba(0,0,0,0.75);
+   
+}
+#slash{
+    background-color: rgb(252, 152, 3);
+    box-shadow: 0px 0px 0px;
+
+}
+
+.display-box{
+    font-family: roboto-regular;
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: rgb(124, 244, 124);
+    border: 1px solid grey;
+    color: black;
+    border-radius: 5px;
+    width: 98%;
+    height: 75%;
+    font-stretch: expanded; 
+}
+#btn{
+    background-color: rgb(219, 18, 109);
+    color: white;
+    opacity: 90%;
+    box-shadow: 0px 0px 0px;
+}
+#del{
+    background-color: rgb(219, 18, 109);
+    color: white;
+    font-weight: lighter;
+    opacity: 90%;
+    box-shadow: 0px 0px 0px;
+
+}
+input[type=button] {
+    font-family: 'orbitron',sans-serif;
+    background-color: rgb(72, 72, 72);
+    border: 1px solid grey;
+    color:white;
+    font-size:x-large;
+    width: 90%;
+    height: 70%;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0px -1px 4px ;
+    
+}
+input:active[type=button]{
+    background-color: #989898;
+    box-shadow: inset 0px 0px 5px;
+}
+body{
+    font-weight:normal;
+   font-family:Gotham Rounded, sans-serif;
+   background: linear-gradient(to right, rgb(113, 121, 132),rgb(47, 133, 246));
+}
